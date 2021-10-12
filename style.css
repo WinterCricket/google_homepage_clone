@@ -2,5 +2,21 @@ body {
 	margin: 0;
 }
 
+#nav a {
+	margin-right: 22px;
+}
+
+#nav a.userimage {
+	width: 22px;
+	height: 22px;
+	background: blue;
+	border-radius: 50%;
+}
+
+#logodiv {
+	margin-top: 154px;
+}
+
 #logo {
+	text-align: center;
 }
