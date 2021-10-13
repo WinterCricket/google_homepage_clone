@@ -12,7 +12,7 @@ div {
 #nav {
 	display: flex;
 	justify-content: flex-end;
-	margin-top: 17px;
+	margin-top: 19px;
 }
 #nav a {
 	margin-right: 22px;
@@ -31,11 +31,11 @@ div {
 	text-decoration: none;
 	font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
 	font-size: 13px;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 #middle {
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 #logo {
@@ -65,26 +65,26 @@ input[type="search" i] {
 
 #searchcontainer {
 	text-align: center;
-	margin-top: 22px;
+	margin-top: 40px;
 }
 #search {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+
 	outline: 0;
-	width: 600px;
+	width: 400px;
 	border-radius: 17px;
-	border: 1px solid rgb(196, 188, 188);
+	border: 1px solid rgb(216, 213, 213);
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-/* input {
-	margin: 0em;
-	padding: 1px 2px;
-	border-width: 2px;
-	border-style: inset;
-	border-color: rgb(133, 133, 133);
-	border-image: initial;
-	outline: none;
-	text-indent: 0px;
-	text-shadow: none;
-	display: inline-block;
+input {
+	padding-inline-end: 44px;
+	padding-inline-start: 52px;
+}
+/* #customizeButton {
+	border: none;
+	border-radius: 17px;
+	box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+	font-weight: 400;
+	min-width: 32px;
 } */
