@@ -1,6 +1,10 @@
 body {
 	margin: 0;
 }
+body {
+	font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+	font-size: 81.25%;
+}
 
 div {
 	/* display: block; */
@@ -28,6 +32,7 @@ div {
 	text-decoration: none;
 	font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
 	font-size: 13px;
+	font-weight: 600;
 }
 
 #middle {
@@ -57,10 +62,15 @@ input[type="search" i] {
 	padding: 1px 2px;
 } */
 #middle {
-	background-color: blueviolet;
 }
 
 #searchcontainer {
 	text-align: center;
 	margin-top: 22px;
+}
+#search {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	outline: 0;
+	width: 600px;
 }
